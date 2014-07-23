@@ -1,0 +1,24 @@
+apply plugin: 'java'
+
+
+// This is the class that starts your application
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.nisgits.gradle:gradle-executable-jar-plugin:1.7.0'
+    }
+}
