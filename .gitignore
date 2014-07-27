@@ -2,5 +2,4 @@ target/
 .DS_Store
 .settings/
 *.log
-
 *.iml
